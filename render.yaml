@@ -1,0 +1,11 @@
+# Exported from Render on 2024-11-21T18:07:08Z
+services:
+- type: web
+  name: blogwebapp
+  runtime: node
+  repo: https://github.com/kukusikp/blogwebapp
+  plan: free
+  region: frankfurt
+  buildCommand: npm install
+  startCommand: node index.js
+version: "1"
