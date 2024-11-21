@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-const port = 3000;
+const port = 443;
 const bodyPars = express.urlencoded({extended:true});
 let posts = [];
 let currentPost = new Post("", "");
